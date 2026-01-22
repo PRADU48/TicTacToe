@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background: repeating-radial-gradient(95px, black, red);
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+
+.container {
+    height: 50vh;
+    width: 50vw;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    border: 2px solid rgba(255, 0, 0, 0.298);
+    border-radius: 17px;
+    background-color: rgba(255, 255, 255, 0.053);
+    backdrop-filter: blur(20px);
+}
+
+
