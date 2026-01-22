@@ -1,3 +1,10 @@
+## Author & Play Link
+
+**Author:** Developer Pradu  
+**Play the game:** https://pradu48.github.io/TicTacToe/
+
+---
+
 # Tic Tac Toe Game (HTML, CSS, JavaScript)
 
 This project is a simple Tic Tac Toe game built using HTML, CSS, and JavaScript. It is designed for beginners who want to understand how a small game works in the browser using basic web technologies. The game runs entirely on the client side and does not require any external libraries or frameworks.
@@ -42,10 +49,17 @@ The restart button allows the player to reset the game without reloading the pag
 
 ## Key Features
 
-The game includes turn-based play, complete win detection, draw detection, and a restart option. The code is clean, simple, and easy to understand, making it ideal for learning and practice.
+- Turn-based gameplay  
+- Win detection for all possible cases  
+- Draw detection  
+- Restart button  
+- Clean and beginner-friendly code  
+- No external libraries required  
 
 ---
 
 ## Learning Outcome
 
 By working with this project, you learn how to manipulate the DOM, handle user events, manage game state using arrays, and apply conditional logic in JavaScript. This project is a strong foundation for building more advanced browser-based games in the future.
+
+---
