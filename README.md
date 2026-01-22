@@ -1,7 +1,7 @@
 ## Author & Play Link
 
 **Author:** Developer Pradu  
-**Play the game:** https://pradu48.github.io/TicTacToe/
+**Play the game:** https://pradu49.github.io/TicTacToe/
 
 ---
 
