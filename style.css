@@ -4,28 +4,80 @@
     box-sizing: border-box;
 }
 
+/* Body */
 body {
     height: 100vh;
     display: flex;
-    background: repeating-radial-gradient(95px, black, red);
     justify-content: center;
     align-items: center;
+    background: repeating-radial-gradient(circle, black, red 100px);
     color: aliceblue;
+    font-family: Arial, sans-serif;
 }
 
+/* Game wrapper */
+.game {
+    text-align: center;
+}
 
+/* Board */
 .container {
     height: 50vh;
     width: 50vw;
+    max-width: 400px;
+    max-height: 400px;
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    align-items: center;
-    border: 2px solid rgba(255, 0, 0, 0.298);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 20px auto;
     border-radius: 17px;
-    background-color: rgba(255, 255, 255, 0.053);
-    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
 }
 
+/* Cells */
+.cell {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    cursor: pointer;
+    user-select: none;
+}
 
+/* Rounded corners */
+.cell:nth-child(1) {
+    border-top-left-radius: 10px;
+}
+
+.cell:nth-child(3) {
+    border-top-right-radius: 10px;
+}
+
+.cell:nth-child(7) {
+    border-bottom-left-radius: 10px;
+}
+
+.cell:nth-child(9) {
+    border-bottom-right-radius: 10px;
+}
+
+.cell:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: red;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkred;
+}
